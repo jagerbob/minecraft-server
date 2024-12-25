@@ -5,7 +5,7 @@ Hey there ! This repository contains the code related to a vanilla minecraft ser
 ## Build the Minecraft server
 
 ```
-docker build -f docker/Dockerfile -t minecraft-server:0.0.2 .  
+docker build -t minecraft-server:0.0.2 .  
 ```
 
 ## Run the Minecraft server
@@ -24,4 +24,19 @@ docker run -e XMS=2048M -e XMX=4096M  -p 25565:25565 -v C:/Workspace/java/minecr
 
 ## Seeds
 
-- `6942694227171849995`: Cliff lake
+- `694269427171849995`: Cliff lake
+
+## Other info
+
+### ops.json example
+
+```
+[
+  {
+    "uuid": "<uuid>",
+    "name": "<name>",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
+```

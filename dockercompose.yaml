@@ -1,0 +1,7 @@
+services:
+  minecraft-server:
+    image: minecraft-server:0.0.2
+    ports:
+      - "18000:25565"
+    volumes:
+      - ./app:/app

@@ -1,7 +1,7 @@
 FROM eclipse-temurin:21-jre
 
-ENV XMX="1024M"
 ENV XMS="1024M"
+ENV XMX="1024M"
 
 RUN apt-get update && apt-get upgrade -y
 

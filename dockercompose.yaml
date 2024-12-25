@@ -3,5 +3,8 @@ services:
     image: minecraft-server:0.0.2
     ports:
       - "18000:25565"
+    environment:
+      - XMS=2048M
+      - XMX=4096M
     volumes:
       - ./app:/app

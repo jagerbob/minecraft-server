@@ -7,4 +7,4 @@ RUN apt-get update && apt-get upgrade -y
 
 WORKDIR /app
 
-CMD ["sh", "-c", "java -Xmx${XMX} -Xms${XMS} -jar minecraft_server.1.21.4.jar nogui"]
+CMD ["sh", "-c", "java -Xmx${XMX} -Xms${XMS} -jar minecraft_server.1.21.9.jar nogui"]

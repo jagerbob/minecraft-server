@@ -1,6 +1,1 @@
 ﻿.idea
-/app/*
-
-!/app/server.properties
-!/app/minecraft_server.1.21.4.jar
-!/app/eula.txt
